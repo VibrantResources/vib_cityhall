@@ -36,8 +36,8 @@ RegisterNetEvent('cityhall:client:JobsListMenu', function(jobsList)
 
     for k, v in pairs(jobsList) do
         headerMenu[#headerMenu + 1] = {
-            title = k,
-            description = "",
+            title = v.job_Label,
+            description = v.job_Description,
             icon = 'fa-solid fa-question',
             iconColor = "yellow",
         }
