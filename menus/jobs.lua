@@ -38,6 +38,15 @@ RegisterNetEvent('cityhall:client:JobsListMenu', function(jobsList)
         headerMenu[#headerMenu + 1] = {
             title = v.job_Label,
             description = v.job_Description,
+            onSelect = function()
+                local alert = lib.alertDialog({
+                    header = 'How to guide',
+                    content = "https://cdn.discordapp.com/attachments/1324514878869733460/1331369778761302027/image.png?ex=6794013a&is=6792afba&hm=73a12b1937d7b34a67481632a34b686438c821d13a172eaa80aa85044e959dd8&",
+                    centered = true,
+                    cancel = false,
+                    size = "xl",
+                })
+            end,
             icon = 'fa-solid fa-question',
             iconColor = "yellow",
         }
