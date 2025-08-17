@@ -41,10 +41,10 @@ RegisterNetEvent('cityhall:client:JobsListMenu', function(jobsList)
             onSelect = function()
                 local alert = lib.alertDialog({
                     header = 'How to guide',
-                    content = v.how_To_Guide[1],
+                    content = v.how_To_Guide,
                     centered = true,
                     cancel = false,
-                    size = "xl",
+                    size = "l",
                 })
             end,
             icon = 'fa-solid fa-question',

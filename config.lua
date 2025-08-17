@@ -15,17 +15,16 @@ Config.Jobs = {
     CivilianJobs = {
         lumberjack = {
             job_Label = "Lumberjack",
-            job_Description = "Maintain the trees of Paleto Forest with steel",
-            how_To_Guide = {[[
+            job_Description = "Maintain the trees of Paleto Forest with iron and steel",
+            how_To_Guide = [[
                 # Overview
-                From the labs of Vibrant Enterprise in Los Santos emerges the fabricator, crafted from military-grade titanium alloys and advanced quantum processing units. Designed for efficiency and precision, this sleek device transforms base materials—steel, electronics, plastics, and precision components—into custom items. It integrates seamlessly into operational environments, embodying Vibrant Enterprise's commitment to innovation and excellence in manufacturing within the competitive underworld of Los Santos.
+                Head over to the Lumberyard just outside of Paleto Bay 
+                and speak to the Foreman there!
 
-                # A few things:
-                1. You need to charge the battery, there is documentation on this in the main documentation.
-                2. To load it, you need to click 'use'. It will open the fabricator and you place your items.
-                3. To use it, you need to click 'Activate'. This will attempt to make something with the items you have placed inside.
-                4. If nothing happens, then you did not get the right combination.
-            ]]},
+                He'll have Axes and cutting benches available for you to buy!
+                Pick one of each up, start chopping tree's 
+                and get those planks ready to sell!
+            ]],
             location = vector4(-571.53, 5328.45, 70.21, 244.0),
         },
     },
@@ -33,12 +32,34 @@ Config.Jobs = {
         police = {
             job_Label = "Law Enforcement",
             job_Description = "Peace keeping officers for the city of Los Santos",
-            location = vector4(427.78, -982.74, 30.71, 267.81),
+            how_To_Guide = [[
+                # Overview
+                If you feel an overwhelming pressure to defend, serve
+                and protect Los Santos then Law Enfrocement is
+                the job for you!
+
+                Access to guns, cars and helicopters, you'll be
+                living the movei star lifestyle in no time except ...
+                you'll have live ammunition!
+            ]],
+            location = vector4(432.79, -981.42, 30.71, 85.41),
         },
         doj = {
             job_Label = "Department of Justice",
             job_Description = "Orchestrators of the penal code for the city of Los Santos",
-            location = vector4(-545.16, -204.01, 38.21, 209.7),
+            how_To_Guide = [[
+                # Overview
+                Have you ever heard the term "He must be smart ... he's
+                a brain surgeon" ... well.. neither have we! Have you ever wanted
+                to poke around in someone's head or limbs?
+
+                Then BOY OH BOY have we got the job for you!
+                Gloves, masks, coats, scalpels ... we've all the equipment for you to play
+                doctors and nurses today!
+
+                Head on down and get your doctorate today!
+            ]],
+            location = vector4(304.21, -600.45, 57.94, 356.13),
         }
     },
 }
